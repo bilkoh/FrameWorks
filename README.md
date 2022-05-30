@@ -1,3 +1,5 @@
+This is FrameWorks. An app I'm working on in react/nextjs to filtering and managing several control frameworks at the same time. I currently work as InfoSec Policy analyst, so I set to develop a tool that would be useful to me. I also wanted to get better with and improve my under of react/nextjs.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

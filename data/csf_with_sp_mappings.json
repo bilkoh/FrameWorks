@@ -1,0 +1,786 @@
+[
+  {
+    "NAME": "DE.AE-1",
+    "FUNCTION": "Detect",
+    "FUNCTION_CODE": "DE",
+    "CATEGORY": "Anomalies and Events",
+    "CATEGORY_DESCRIPTION": "Anomalous activity is detected in a timely manner and the potential impact of events is understood.",
+    "DESCRIPTION": "A baseline of network operations and expected data flows for users and systems is established and managed"
+  },
+  {
+    "NAME": "DE.AE-2",
+    "FUNCTION": "Detect",
+    "FUNCTION_CODE": "DE",
+    "CATEGORY": "Anomalies and Events",
+    "CATEGORY_DESCRIPTION": "Anomalous activity is detected in a timely manner and the potential impact of events is understood.",
+    "DESCRIPTION": "Detected events are analyzed to understand attack targets and methods"
+  },
+  {
+    "NAME": "DE.AE-3",
+    "FUNCTION": "Detect",
+    "FUNCTION_CODE": "DE",
+    "CATEGORY": "Anomalies and Events",
+    "CATEGORY_DESCRIPTION": "Anomalous activity is detected in a timely manner and the potential impact of events is understood.",
+    "DESCRIPTION": "Event data are aggregated and correlated from multiple sources and sensors"
+  },
+  {
+    "NAME": "DE.AE-4",
+    "FUNCTION": "Detect",
+    "FUNCTION_CODE": "DE",
+    "CATEGORY": "Anomalies and Events",
+    "CATEGORY_DESCRIPTION": "Anomalous activity is detected in a timely manner and the potential impact of events is understood.",
+    "DESCRIPTION": "Impact of events is determined"
+  },
+  {
+    "NAME": "DE.AE-5",
+    "FUNCTION": "Detect",
+    "FUNCTION_CODE": "DE",
+    "CATEGORY": "Anomalies and Events",
+    "CATEGORY_DESCRIPTION": "Anomalous activity is detected in a timely manner and the potential impact of events is understood.",
+    "DESCRIPTION": "Incident alert thresholds are established"
+  },
+  {
+    "NAME": "DE.CM-1",
+    "FUNCTION": "Detect",
+    "FUNCTION_CODE": "DE",
+    "CATEGORY": "Security Continuous Monitoring",
+    "CATEGORY_DESCRIPTION": "The information system and assets are monitored at discrete intervals to identify cybersecurity events and verify the effectiveness of protective measures.",
+    "DESCRIPTION": "The network is monitored to detect potential cybersecurity events"
+  },
+  {
+    "NAME": "DE.CM-2",
+    "FUNCTION": "Detect",
+    "FUNCTION_CODE": "DE",
+    "CATEGORY": "Security Continuous Monitoring",
+    "CATEGORY_DESCRIPTION": "The information system and assets are monitored at discrete intervals to identify cybersecurity events and verify the effectiveness of protective measures.",
+    "DESCRIPTION": "The physical environment is monitored to detect potential cybersecurity events"
+  },
+  {
+    "NAME": "DE.CM-3",
+    "FUNCTION": "Detect",
+    "FUNCTION_CODE": "DE",
+    "CATEGORY": "Security Continuous Monitoring",
+    "CATEGORY_DESCRIPTION": "The information system and assets are monitored at discrete intervals to identify cybersecurity events and verify the effectiveness of protective measures.",
+    "DESCRIPTION": "Personnel activity is monitored to detect potential cybersecurity events"
+  },
+  {
+    "NAME": "DE.CM-4",
+    "FUNCTION": "Detect",
+    "FUNCTION_CODE": "DE",
+    "CATEGORY": "Security Continuous Monitoring",
+    "CATEGORY_DESCRIPTION": "The information system and assets are monitored at discrete intervals to identify cybersecurity events and verify the effectiveness of protective measures.",
+    "DESCRIPTION": "Malicious code is detected"
+  },
+  {
+    "NAME": "DE.CM-5",
+    "FUNCTION": "Detect",
+    "FUNCTION_CODE": "DE",
+    "CATEGORY": "Security Continuous Monitoring",
+    "CATEGORY_DESCRIPTION": "The information system and assets are monitored at discrete intervals to identify cybersecurity events and verify the effectiveness of protective measures.",
+    "DESCRIPTION": "Unauthorized mobile code is detected"
+  },
+  {
+    "NAME": "DE.CM-6",
+    "FUNCTION": "Detect",
+    "FUNCTION_CODE": "DE",
+    "CATEGORY": "Security Continuous Monitoring",
+    "CATEGORY_DESCRIPTION": "The information system and assets are monitored at discrete intervals to identify cybersecurity events and verify the effectiveness of protective measures.",
+    "DESCRIPTION": "External service provider activity is monitored to detect potential cybersecurity events"
+  },
+  {
+    "NAME": "DE.CM-7",
+    "FUNCTION": "Detect",
+    "FUNCTION_CODE": "DE",
+    "CATEGORY": "Security Continuous Monitoring",
+    "CATEGORY_DESCRIPTION": "The information system and assets are monitored at discrete intervals to identify cybersecurity events and verify the effectiveness of protective measures.",
+    "DESCRIPTION": "Monitoring for unauthorized personnel, connections, devices, and software is performed"
+  },
+  {
+    "NAME": "DE.CM-8",
+    "FUNCTION": "Detect",
+    "FUNCTION_CODE": "DE",
+    "CATEGORY": "Security Continuous Monitoring",
+    "CATEGORY_DESCRIPTION": "The information system and assets are monitored at discrete intervals to identify cybersecurity events and verify the effectiveness of protective measures.",
+    "DESCRIPTION": "Vulnerability scans are performed"
+  },
+  {
+    "NAME": "DE.DP-1",
+    "FUNCTION": "Detect",
+    "FUNCTION_CODE": "DE",
+    "CATEGORY": "Detection Processes",
+    "CATEGORY_DESCRIPTION": "Detection processes and procedures are maintained and tested to ensure timely and adequate awareness of anomalous events.",
+    "DESCRIPTION": "Roles and responsibilities for detection are well defined to ensure accountability"
+  },
+  {
+    "NAME": "DE.DP-2",
+    "FUNCTION": "Detect",
+    "FUNCTION_CODE": "DE",
+    "CATEGORY": "Detection Processes",
+    "CATEGORY_DESCRIPTION": "Detection processes and procedures are maintained and tested to ensure timely and adequate awareness of anomalous events.",
+    "DESCRIPTION": "Detection activities comply with all applicable requirements"
+  },
+  {
+    "NAME": "DE.DP-3",
+    "FUNCTION": "Detect",
+    "FUNCTION_CODE": "DE",
+    "CATEGORY": "Detection Processes",
+    "CATEGORY_DESCRIPTION": "Detection processes and procedures are maintained and tested to ensure timely and adequate awareness of anomalous events.",
+    "DESCRIPTION": "Detection processes are tested"
+  },
+  {
+    "NAME": "DE.DP-4",
+    "FUNCTION": "Detect",
+    "FUNCTION_CODE": "DE",
+    "CATEGORY": "Detection Processes",
+    "CATEGORY_DESCRIPTION": "Detection processes and procedures are maintained and tested to ensure timely and adequate awareness of anomalous events.",
+    "DESCRIPTION": "Event detection information is communicated to appropriate parties"
+  },
+  {
+    "NAME": "DE.DP-5",
+    "FUNCTION": "Detect",
+    "FUNCTION_CODE": "DE",
+    "CATEGORY": "Detection Processes",
+    "CATEGORY_DESCRIPTION": "Detection processes and procedures are maintained and tested to ensure timely and adequate awareness of anomalous events.",
+    "DESCRIPTION": "Detection processes are continuously improved"
+  },
+  {
+    "NAME": "ID.AM-1",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Asset Management",
+    "CATEGORY_DESCRIPTION": "The data, personnel, devices, systems, and facilities that enable the organization to achieve business purposes are identified and managed consistent with their relative importance to business objectives and the organization’s risk strategy.",
+    "DESCRIPTION": "Physical devices and systems within the organization are inventoried"
+  },
+  {
+    "NAME": "ID.AM-2",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Asset Management",
+    "CATEGORY_DESCRIPTION": "The data, personnel, devices, systems, and facilities that enable the organization to achieve business purposes are identified and managed consistent with their relative importance to business objectives and the organization’s risk strategy.",
+    "DESCRIPTION": "Software platforms and applications within the organization are inventoried"
+  },
+  {
+    "NAME": "ID.AM-3",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Asset Management",
+    "CATEGORY_DESCRIPTION": "The data, personnel, devices, systems, and facilities that enable the organization to achieve business purposes are identified and managed consistent with their relative importance to business objectives and the organization’s risk strategy.",
+    "DESCRIPTION": "Organizational communication and data flows are mapped"
+  },
+  {
+    "NAME": "ID.AM-4",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Asset Management",
+    "CATEGORY_DESCRIPTION": "The data, personnel, devices, systems, and facilities that enable the organization to achieve business purposes are identified and managed consistent with their relative importance to business objectives and the organization’s risk strategy.",
+    "DESCRIPTION": "External information systems are catalogued"
+  },
+  {
+    "NAME": "ID.AM-5",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Asset Management",
+    "CATEGORY_DESCRIPTION": "The data, personnel, devices, systems, and facilities that enable the organization to achieve business purposes are identified and managed consistent with their relative importance to business objectives and the organization’s risk strategy.",
+    "DESCRIPTION": "Resources (e.g., hardware, devices, data, and software) are prioritized based on their classification, criticality, and business value "
+  },
+  {
+    "NAME": "ID.AM-6",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Asset Management",
+    "CATEGORY_DESCRIPTION": "The data, personnel, devices, systems, and facilities that enable the organization to achieve business purposes are identified and managed consistent with their relative importance to business objectives and the organization’s risk strategy.",
+    "DESCRIPTION": "Cybersecurity roles and responsibilities for the entire workforce and third-party stakeholders (e.g., suppliers, customers, partners) are established"
+  },
+  {
+    "NAME": "ID.BE-1",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Business Environment",
+    "CATEGORY_DESCRIPTION": "The organization’s mission, objectives, stakeholders, and activities are understood and prioritized; this information is used to inform cybersecurity roles, responsibilities, and risk management decisions.",
+    "DESCRIPTION": "The organization’s role in the supply chain is identified and communicated"
+  },
+  {
+    "NAME": "ID.BE-2",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Business Environment",
+    "CATEGORY_DESCRIPTION": "The organization’s mission, objectives, stakeholders, and activities are understood and prioritized; this information is used to inform cybersecurity roles, responsibilities, and risk management decisions.",
+    "DESCRIPTION": "The organization’s place in critical infrastructure and its industry sector is identified and communicated"
+  },
+  {
+    "NAME": "ID.BE-3",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Business Environment",
+    "CATEGORY_DESCRIPTION": "The organization’s mission, objectives, stakeholders, and activities are understood and prioritized; this information is used to inform cybersecurity roles, responsibilities, and risk management decisions.",
+    "DESCRIPTION": "Priorities for organizational mission, objectives, and activities are established and communicated"
+  },
+  {
+    "NAME": "ID.BE-4",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Business Environment",
+    "CATEGORY_DESCRIPTION": "The organization’s mission, objectives, stakeholders, and activities are understood and prioritized; this information is used to inform cybersecurity roles, responsibilities, and risk management decisions.",
+    "DESCRIPTION": "Dependencies and critical functions for delivery of critical services are established"
+  },
+  {
+    "NAME": "ID.BE-5",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Business Environment",
+    "CATEGORY_DESCRIPTION": "The organization’s mission, objectives, stakeholders, and activities are understood and prioritized; this information is used to inform cybersecurity roles, responsibilities, and risk management decisions.",
+    "DESCRIPTION": "Resilience requirements to support delivery of critical services are established"
+  },
+  {
+    "NAME": "ID.GV-1",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Governance",
+    "CATEGORY_DESCRIPTION": "The policies, procedures, and processes to manage and monitor the organization’s regulatory, legal, risk, environmental, and operational requirements are understood and inform the management of cybersecurity risk.",
+    "DESCRIPTION": "Organizational information security policy is established"
+  },
+  {
+    "NAME": "ID.GV-2",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Governance",
+    "CATEGORY_DESCRIPTION": "The policies, procedures, and processes to manage and monitor the organization’s regulatory, legal, risk, environmental, and operational requirements are understood and inform the management of cybersecurity risk.",
+    "DESCRIPTION": "Information security roles & responsibilities are coordinated and aligned with internal roles and external partners"
+  },
+  {
+    "NAME": "ID.GV-3",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Governance",
+    "CATEGORY_DESCRIPTION": "The policies, procedures, and processes to manage and monitor the organization’s regulatory, legal, risk, environmental, and operational requirements are understood and inform the management of cybersecurity risk.",
+    "DESCRIPTION": "Legal and regulatory requirements regarding cybersecurity, including privacy and civil liberties obligations, are understood and managed"
+  },
+  {
+    "NAME": "ID.GV-4",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Governance",
+    "CATEGORY_DESCRIPTION": "The policies, procedures, and processes to manage and monitor the organization’s regulatory, legal, risk, environmental, and operational requirements are understood and inform the management of cybersecurity risk.",
+    "DESCRIPTION": "Governance and risk management processes address cybersecurity risks"
+  },
+  {
+    "NAME": "ID.RA-1",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Risk Assessment",
+    "CATEGORY_DESCRIPTION": "The organization understands the cybersecurity risk to organizational operations (including mission, functions, image, or reputation), organizational assets, and individuals.",
+    "DESCRIPTION": "Asset vulnerabilities are identified and documented"
+  },
+  {
+    "NAME": "ID.RA-2",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Risk Assessment",
+    "CATEGORY_DESCRIPTION": "The organization understands the cybersecurity risk to organizational operations (including mission, functions, image, or reputation), organizational assets, and individuals.",
+    "DESCRIPTION": "Threat and vulnerability information is received from information sharing forums and sources"
+  },
+  {
+    "NAME": "ID.RA-3",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Risk Assessment",
+    "CATEGORY_DESCRIPTION": "The organization understands the cybersecurity risk to organizational operations (including mission, functions, image, or reputation), organizational assets, and individuals.",
+    "DESCRIPTION": "Threats, both internal and external, are identified and documented"
+  },
+  {
+    "NAME": "ID.RA-4",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Risk Assessment",
+    "CATEGORY_DESCRIPTION": "The organization understands the cybersecurity risk to organizational operations (including mission, functions, image, or reputation), organizational assets, and individuals.",
+    "DESCRIPTION": "Potential business impacts and likelihoods are identified"
+  },
+  {
+    "NAME": "ID.RA-5",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Risk Assessment",
+    "CATEGORY_DESCRIPTION": "The organization understands the cybersecurity risk to organizational operations (including mission, functions, image, or reputation), organizational assets, and individuals.",
+    "DESCRIPTION": "Threats, vulnerabilities, likelihoods, and impacts are used to determine risk"
+  },
+  {
+    "NAME": "ID.RA-6",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Risk Assessment",
+    "CATEGORY_DESCRIPTION": "The organization understands the cybersecurity risk to organizational operations (including mission, functions, image, or reputation), organizational assets, and individuals.",
+    "DESCRIPTION": "Risk responses are identified and prioritized"
+  },
+  {
+    "NAME": "ID.RM-1",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Risk Management Strategy",
+    "CATEGORY_DESCRIPTION": "The organization’s priorities, constraints, risk tolerances, and assumptions are established and used to support operational risk decisions.",
+    "DESCRIPTION": "Risk management processes are established, managed, and agreed to by organizational stakeholders"
+  },
+  {
+    "NAME": "ID.RM-2",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Risk Management Strategy",
+    "CATEGORY_DESCRIPTION": "The organization’s priorities, constraints, risk tolerances, and assumptions are established and used to support operational risk decisions.",
+    "DESCRIPTION": "Organizational risk tolerance is determined and clearly expressed"
+  },
+  {
+    "NAME": "ID.RM-3",
+    "FUNCTION": "Identify",
+    "FUNCTION_CODE": "ID",
+    "CATEGORY": "Risk Management Strategy",
+    "CATEGORY_DESCRIPTION": "The organization’s priorities, constraints, risk tolerances, and assumptions are established and used to support operational risk decisions.",
+    "DESCRIPTION": "The organization’s determination of risk tolerance is informed by its role in critical infrastructure and sector specific risk analysis"
+  },
+  {
+    "NAME": "PR.AC-1",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Access Control",
+    "CATEGORY_DESCRIPTION": "Access to assets and associated facilities is limited to authorized users, processes, or devices, and to authorized activities and transactions.",
+    "DESCRIPTION": "Identities and credentials are managed for authorized devices and users"
+  },
+  {
+    "NAME": "PR.AC-2",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Access Control",
+    "CATEGORY_DESCRIPTION": "Access to assets and associated facilities is limited to authorized users, processes, or devices, and to authorized activities and transactions.",
+    "DESCRIPTION": "Physical access to assets is managed and protected"
+  },
+  {
+    "NAME": "PR.AC-3",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Access Control",
+    "CATEGORY_DESCRIPTION": "Access to assets and associated facilities is limited to authorized users, processes, or devices, and to authorized activities and transactions.",
+    "DESCRIPTION": "Remote access is managed"
+  },
+  {
+    "NAME": "PR.AC-4",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Access Control",
+    "CATEGORY_DESCRIPTION": "Access to assets and associated facilities is limited to authorized users, processes, or devices, and to authorized activities and transactions.",
+    "DESCRIPTION": "Access permissions are managed, incorporating the principles of least privilege and separation of duties"
+  },
+  {
+    "NAME": "PR.AC-5",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Access Control",
+    "CATEGORY_DESCRIPTION": "Access to assets and associated facilities is limited to authorized users, processes, or devices, and to authorized activities and transactions.",
+    "DESCRIPTION": "Network integrity is protected, incorporating network segregation where appropriate"
+  },
+  {
+    "NAME": "PR.AT-1",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Awareness and Training",
+    "CATEGORY_DESCRIPTION": "The organization’s personnel and partners are provided cybersecurity awareness education and are adequately trained to perform their information security-related duties and responsibilities consistent with related policies, procedures, and agreements.",
+    "DESCRIPTION": "All users are informed and trained "
+  },
+  {
+    "NAME": "PR.AT-2",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Awareness and Training",
+    "CATEGORY_DESCRIPTION": "The organization’s personnel and partners are provided cybersecurity awareness education and are adequately trained to perform their information security-related duties and responsibilities consistent with related policies, procedures, and agreements.",
+    "DESCRIPTION": "Privileged users understand roles & responsibilities "
+  },
+  {
+    "NAME": "PR.AT-3",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Awareness and Training",
+    "CATEGORY_DESCRIPTION": "The organization’s personnel and partners are provided cybersecurity awareness education and are adequately trained to perform their information security-related duties and responsibilities consistent with related policies, procedures, and agreements.",
+    "DESCRIPTION": "Third-party stakeholders (e.g., suppliers, customers, partners) understand roles & responsibilities "
+  },
+  {
+    "NAME": "PR.AT-4",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Awareness and Training",
+    "CATEGORY_DESCRIPTION": "The organization’s personnel and partners are provided cybersecurity awareness education and are adequately trained to perform their information security-related duties and responsibilities consistent with related policies, procedures, and agreements.",
+    "DESCRIPTION": "Senior executives understand roles & responsibilities "
+  },
+  {
+    "NAME": "PR.AT-5",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Awareness and Training",
+    "CATEGORY_DESCRIPTION": "The organization’s personnel and partners are provided cybersecurity awareness education and are adequately trained to perform their information security-related duties and responsibilities consistent with related policies, procedures, and agreements.",
+    "DESCRIPTION": "Physical and information security personnel understand roles & responsibilities "
+  },
+  {
+    "NAME": "PR.DS-1",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Data Security",
+    "CATEGORY_DESCRIPTION": "Information and records (data) are managed consistent with the organization’s risk strategy to protect the confidentiality, integrity, and availability of information.",
+    "DESCRIPTION": "Data-at-rest is protected"
+  },
+  {
+    "NAME": "PR.DS-2",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Data Security",
+    "CATEGORY_DESCRIPTION": "Information and records (data) are managed consistent with the organization’s risk strategy to protect the confidentiality, integrity, and availability of information.",
+    "DESCRIPTION": "Data-in-transit is protected"
+  },
+  {
+    "NAME": "PR.DS-3",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Data Security",
+    "CATEGORY_DESCRIPTION": "Information and records (data) are managed consistent with the organization’s risk strategy to protect the confidentiality, integrity, and availability of information.",
+    "DESCRIPTION": "Assets are formally managed throughout removal, transfers, and disposition"
+  },
+  {
+    "NAME": "PR.DS-4",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Data Security",
+    "CATEGORY_DESCRIPTION": "Information and records (data) are managed consistent with the organization’s risk strategy to protect the confidentiality, integrity, and availability of information.",
+    "DESCRIPTION": "Adequate capacity to ensure availability is maintained"
+  },
+  {
+    "NAME": "PR.DS-5",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Data Security",
+    "CATEGORY_DESCRIPTION": "Information and records (data) are managed consistent with the organization’s risk strategy to protect the confidentiality, integrity, and availability of information.",
+    "DESCRIPTION": "Protections against data leaks are implemented"
+  },
+  {
+    "NAME": "PR.DS-6",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Data Security",
+    "CATEGORY_DESCRIPTION": "Information and records (data) are managed consistent with the organization’s risk strategy to protect the confidentiality, integrity, and availability of information.",
+    "DESCRIPTION": "Integrity checking mechanisms are used to verify software, firmware, and information integrity"
+  },
+  {
+    "NAME": "PR.DS-7",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Data Security",
+    "CATEGORY_DESCRIPTION": "Information and records (data) are managed consistent with the organization’s risk strategy to protect the confidentiality, integrity, and availability of information.",
+    "DESCRIPTION": "The development and testing environment(s) are separate from the production environment"
+  },
+  {
+    "NAME": "PR.IP-10",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Information Protection Processes and Procedures",
+    "CATEGORY_DESCRIPTION": "Security policies (that address purpose, scope, roles, responsibilities, management commitment, and coordination among organizational entities), processes, and procedures are maintained and used to manage protection of information systems and assets.",
+    "DESCRIPTION": "Response and recovery plans are tested"
+  },
+  {
+    "NAME": "PR.IP-11",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Information Protection Processes and Procedures",
+    "CATEGORY_DESCRIPTION": "Security policies (that address purpose, scope, roles, responsibilities, management commitment, and coordination among organizational entities), processes, and procedures are maintained and used to manage protection of information systems and assets.",
+    "DESCRIPTION": "Cybersecurity is included in human resources practices (e.g., deprovisioning, personnel screening)"
+  },
+  {
+    "NAME": "PR.IP-12",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Information Protection Processes and Procedures",
+    "CATEGORY_DESCRIPTION": "Security policies (that address purpose, scope, roles, responsibilities, management commitment, and coordination among organizational entities), processes, and procedures are maintained and used to manage protection of information systems and assets.",
+    "DESCRIPTION": "A vulnerability management plan is developed and implemented"
+  },
+  {
+    "NAME": "PR.IP-1",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Information Protection Processes and Procedures",
+    "CATEGORY_DESCRIPTION": "Security policies (that address purpose, scope, roles, responsibilities, management commitment, and coordination among organizational entities), processes, and procedures are maintained and used to manage protection of information systems and assets.",
+    "DESCRIPTION": "A baseline configuration of information technology/industrial control systems is created and maintained"
+  },
+  {
+    "NAME": "PR.IP-2",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Information Protection Processes and Procedures",
+    "CATEGORY_DESCRIPTION": "Security policies (that address purpose, scope, roles, responsibilities, management commitment, and coordination among organizational entities), processes, and procedures are maintained and used to manage protection of information systems and assets.",
+    "DESCRIPTION": "A System Development Life Cycle to manage systems is implemented"
+  },
+  {
+    "NAME": "PR.IP-3",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Information Protection Processes and Procedures",
+    "CATEGORY_DESCRIPTION": "Security policies (that address purpose, scope, roles, responsibilities, management commitment, and coordination among organizational entities), processes, and procedures are maintained and used to manage protection of information systems and assets.",
+    "DESCRIPTION": "Configuration change control processes are in place"
+  },
+  {
+    "NAME": "PR.IP-4",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Information Protection Processes and Procedures",
+    "CATEGORY_DESCRIPTION": "Security policies (that address purpose, scope, roles, responsibilities, management commitment, and coordination among organizational entities), processes, and procedures are maintained and used to manage protection of information systems and assets.",
+    "DESCRIPTION": "Backups of information are conducted, maintained, and tested periodically"
+  },
+  {
+    "NAME": "PR.IP-5",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Information Protection Processes and Procedures",
+    "CATEGORY_DESCRIPTION": "Security policies (that address purpose, scope, roles, responsibilities, management commitment, and coordination among organizational entities), processes, and procedures are maintained and used to manage protection of information systems and assets.",
+    "DESCRIPTION": "Policy and regulations regarding the physical operating environment for organizational assets are met"
+  },
+  {
+    "NAME": "PR.IP-6",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Information Protection Processes and Procedures",
+    "CATEGORY_DESCRIPTION": "Security policies (that address purpose, scope, roles, responsibilities, management commitment, and coordination among organizational entities), processes, and procedures are maintained and used to manage protection of information systems and assets.",
+    "DESCRIPTION": "Data is destroyed according to policy"
+  },
+  {
+    "NAME": "PR.IP-7",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Information Protection Processes and Procedures",
+    "CATEGORY_DESCRIPTION": "Security policies (that address purpose, scope, roles, responsibilities, management commitment, and coordination among organizational entities), processes, and procedures are maintained and used to manage protection of information systems and assets.",
+    "DESCRIPTION": "Protection processes are continuously improved"
+  },
+  {
+    "NAME": "PR.IP-8",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Information Protection Processes and Procedures",
+    "CATEGORY_DESCRIPTION": "Security policies (that address purpose, scope, roles, responsibilities, management commitment, and coordination among organizational entities), processes, and procedures are maintained and used to manage protection of information systems and assets.",
+    "DESCRIPTION": "Effectiveness of protection technologies is shared with appropriate parties"
+  },
+  {
+    "NAME": "PR.IP-9",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Information Protection Processes and Procedures",
+    "CATEGORY_DESCRIPTION": "Security policies (that address purpose, scope, roles, responsibilities, management commitment, and coordination among organizational entities), processes, and procedures are maintained and used to manage protection of information systems and assets.",
+    "DESCRIPTION": "Response plans (Incident Response and Business Continuity) and recovery plans (Incident Recovery and Disaster Recovery) are in place and managed"
+  },
+  {
+    "NAME": "PR.MA-1",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Maintenance",
+    "CATEGORY_DESCRIPTION": "Maintenance and repairs of industrial control and information system components is performed consistent with policies and procedures.",
+    "DESCRIPTION": "Maintenance and repair of organizational assets is performed and logged in a timely manner, with approved and controlled tools"
+  },
+  {
+    "NAME": "PR.MA-2",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Maintenance",
+    "CATEGORY_DESCRIPTION": "Maintenance and repairs of industrial control and information system components is performed consistent with policies and procedures.",
+    "DESCRIPTION": "Remote maintenance of organizational assets is approved, logged, and performed in a manner that prevents unauthorized access"
+  },
+  {
+    "NAME": "PR.PT-1",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Protective Technology",
+    "CATEGORY_DESCRIPTION": "Technical security solutions are managed to ensure the security and resilience of systems and assets, consistent with related policies, procedures, and agreements.",
+    "DESCRIPTION": "Audit/log records are determined, documented, implemented, and reviewed in accordance with policy"
+  },
+  {
+    "NAME": "PR.PT-2",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Protective Technology",
+    "CATEGORY_DESCRIPTION": "Technical security solutions are managed to ensure the security and resilience of systems and assets, consistent with related policies, procedures, and agreements.",
+    "DESCRIPTION": "Removable media is protected and its use restricted according to policy"
+  },
+  {
+    "NAME": "PR.PT-3",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Protective Technology",
+    "CATEGORY_DESCRIPTION": "Technical security solutions are managed to ensure the security and resilience of systems and assets, consistent with related policies, procedures, and agreements.",
+    "DESCRIPTION": "Access to systems and assets is controlled, incorporating the principle of least functionality"
+  },
+  {
+    "NAME": "PR.PT-4",
+    "FUNCTION": "Protect",
+    "FUNCTION_CODE": "PR",
+    "CATEGORY": "Protective Technology",
+    "CATEGORY_DESCRIPTION": "Technical security solutions are managed to ensure the security and resilience of systems and assets, consistent with related policies, procedures, and agreements.",
+    "DESCRIPTION": "Communications and control networks are protected"
+  },
+  {
+    "NAME": "RC.CO-1",
+    "FUNCTION": "Recover",
+    "FUNCTION_CODE": "RC",
+    "CATEGORY": "Communications",
+    "CATEGORY_DESCRIPTION": "Restoration activities are coordinated with internal and external parties, such as coordinating centers, Internet Service Providers, owners of attacking systems, victims, other CSIRTs, and vendors.",
+    "DESCRIPTION": "Public relations are managed"
+  },
+  {
+    "NAME": "RC.CO-2",
+    "FUNCTION": "Recover",
+    "FUNCTION_CODE": "RC",
+    "CATEGORY": "Communications",
+    "CATEGORY_DESCRIPTION": "Restoration activities are coordinated with internal and external parties, such as coordinating centers, Internet Service Providers, owners of attacking systems, victims, other CSIRTs, and vendors.",
+    "DESCRIPTION": "Reputation after an event is repaired"
+  },
+  {
+    "NAME": "RC.CO-3",
+    "FUNCTION": "Recover",
+    "FUNCTION_CODE": "RC",
+    "CATEGORY": "Communications",
+    "CATEGORY_DESCRIPTION": "Restoration activities are coordinated with internal and external parties, such as coordinating centers, Internet Service Providers, owners of attacking systems, victims, other CSIRTs, and vendors.",
+    "DESCRIPTION": "Recovery activities are communicated to internal stakeholders and executive and management teams"
+  },
+  {
+    "NAME": "RC.IM-1",
+    "FUNCTION": "Recover",
+    "FUNCTION_CODE": "RC",
+    "CATEGORY": "Improvements",
+    "CATEGORY_DESCRIPTION": "Recovery planning and processes are improved by incorporating lessons learned into future activities.",
+    "DESCRIPTION": "Recovery plans incorporate lessons learned"
+  },
+  {
+    "NAME": "RC.IM-2",
+    "FUNCTION": "Recover",
+    "FUNCTION_CODE": "RC",
+    "CATEGORY": "Improvements",
+    "CATEGORY_DESCRIPTION": "Recovery planning and processes are improved by incorporating lessons learned into future activities.",
+    "DESCRIPTION": "Recovery strategies are updated"
+  },
+  {
+    "NAME": "RC.RP-1",
+    "FUNCTION": "Recover",
+    "FUNCTION_CODE": "RC",
+    "CATEGORY": "Recovery Planning",
+    "CATEGORY_DESCRIPTION": "Recovery processes and procedures are executed and maintained to ensure timely restoration of systems or assets affected by cybersecurity events.",
+    "DESCRIPTION": "Recovery plan is executed during or after an event"
+  },
+  {
+    "NAME": "RS.AN-1",
+    "FUNCTION": "Respond",
+    "FUNCTION_CODE": "RS",
+    "CATEGORY": "Analysis",
+    "CATEGORY_DESCRIPTION": "Analysis is conducted to ensure adequate response and support recovery activities.",
+    "DESCRIPTION": "Notifications from detection systems are investigated "
+  },
+  {
+    "NAME": "RS.AN-2",
+    "FUNCTION": "Respond",
+    "FUNCTION_CODE": "RS",
+    "CATEGORY": "Analysis",
+    "CATEGORY_DESCRIPTION": "Analysis is conducted to ensure adequate response and support recovery activities.",
+    "DESCRIPTION": "The impact of the incident is understood"
+  },
+  {
+    "NAME": "RS.AN-3",
+    "FUNCTION": "Respond",
+    "FUNCTION_CODE": "RS",
+    "CATEGORY": "Analysis",
+    "CATEGORY_DESCRIPTION": "Analysis is conducted to ensure adequate response and support recovery activities.",
+    "DESCRIPTION": "Forensics are performed"
+  },
+  {
+    "NAME": "RS.AN-4",
+    "FUNCTION": "Respond",
+    "FUNCTION_CODE": "RS",
+    "CATEGORY": "Analysis",
+    "CATEGORY_DESCRIPTION": "Analysis is conducted to ensure adequate response and support recovery activities.",
+    "DESCRIPTION": "Incidents are categorized consistent with response plans"
+  },
+  {
+    "NAME": "RS.CO-1",
+    "FUNCTION": "Respond",
+    "FUNCTION_CODE": "RS",
+    "CATEGORY": "Communications",
+    "CATEGORY_DESCRIPTION": "Response activities are coordinated with internal and external stakeholders, as appropriate, to include external support from law enforcement agencies.",
+    "DESCRIPTION": "Personnel know their roles and order of operations when a response is needed"
+  },
+  {
+    "NAME": "RS.CO-2",
+    "FUNCTION": "Respond",
+    "FUNCTION_CODE": "RS",
+    "CATEGORY": "Communications",
+    "CATEGORY_DESCRIPTION": "Response activities are coordinated with internal and external stakeholders, as appropriate, to include external support from law enforcement agencies.",
+    "DESCRIPTION": "Events are reported consistent with established criteria"
+  },
+  {
+    "NAME": "RS.CO-3",
+    "FUNCTION": "Respond",
+    "FUNCTION_CODE": "RS",
+    "CATEGORY": "Communications",
+    "CATEGORY_DESCRIPTION": "Response activities are coordinated with internal and external stakeholders, as appropriate, to include external support from law enforcement agencies.",
+    "DESCRIPTION": "Information is shared consistent with response plans"
+  },
+  {
+    "NAME": "RS.CO-4",
+    "FUNCTION": "Respond",
+    "FUNCTION_CODE": "RS",
+    "CATEGORY": "Communications",
+    "CATEGORY_DESCRIPTION": "Response activities are coordinated with internal and external stakeholders, as appropriate, to include external support from law enforcement agencies.",
+    "DESCRIPTION": "Coordination with stakeholders occurs consistent with response plans"
+  },
+  {
+    "NAME": "RS.CO-5",
+    "FUNCTION": "Respond",
+    "FUNCTION_CODE": "RS",
+    "CATEGORY": "Communications",
+    "CATEGORY_DESCRIPTION": "Response activities are coordinated with internal and external stakeholders, as appropriate, to include external support from law enforcement agencies.",
+    "DESCRIPTION": "Voluntary information sharing occurs with external stakeholders to achieve broader cybersecurity situational awareness "
+  },
+  {
+    "NAME": "RS.IM-1",
+    "FUNCTION": "Respond",
+    "FUNCTION_CODE": "RS",
+    "CATEGORY": "Improvements",
+    "CATEGORY_DESCRIPTION": "Organizational response activities are improved by incorporating lessons learned from current and previous detection/response activities.",
+    "DESCRIPTION": "Response plans incorporate lessons learned"
+  },
+  {
+    "NAME": "RS.IM-2",
+    "FUNCTION": "Respond",
+    "FUNCTION_CODE": "RS",
+    "CATEGORY": "Improvements",
+    "CATEGORY_DESCRIPTION": "Organizational response activities are improved by incorporating lessons learned from current and previous detection/response activities.",
+    "DESCRIPTION": "Response strategies are updated"
+  },
+  {
+    "NAME": "RS.MI-1",
+    "FUNCTION": "Respond",
+    "FUNCTION_CODE": "RS",
+    "CATEGORY": "Mitigation",
+    "CATEGORY_DESCRIPTION": "Activities are performed to prevent expansion of an event, mitigate its effects, and eradicate the incident.",
+    "DESCRIPTION": "Incidents are contained"
+  },
+  {
+    "NAME": "RS.MI-2",
+    "FUNCTION": "Respond",
+    "FUNCTION_CODE": "RS",
+    "CATEGORY": "Mitigation",
+    "CATEGORY_DESCRIPTION": "Activities are performed to prevent expansion of an event, mitigate its effects, and eradicate the incident.",
+    "DESCRIPTION": "Incidents are mitigated"
+  },
+  {
+    "NAME": "RS.MI-3",
+    "FUNCTION": "Respond",
+    "FUNCTION_CODE": "RS",
+    "CATEGORY": "Mitigation",
+    "CATEGORY_DESCRIPTION": "Activities are performed to prevent expansion of an event, mitigate its effects, and eradicate the incident.",
+    "DESCRIPTION": "Newly identified vulnerabilities are mitigated or documented as accepted risks"
+  },
+  {
+    "NAME": "RS.RP-1",
+    "FUNCTION": "Respond",
+    "FUNCTION_CODE": "RS",
+    "CATEGORY": "Response Planning",
+    "CATEGORY_DESCRIPTION": "Response processes and procedures are executed and maintained, to ensure timely response to detected cybersecurity events.",
+    "DESCRIPTION": "Response plan is executed during or after an event"
+  }
+]
