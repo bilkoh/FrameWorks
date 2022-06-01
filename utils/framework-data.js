@@ -4,7 +4,8 @@ export const getAllSP = () => {
 };
 
 export const getAllCSF = () => {
-  return require("../data/csf_with_sp_mappings.json");
+  // return require("../data/csf_with_sp_mappings.json");
+  return require("../data/nist-csf.json");
 };
 
 export const getAllFrameworks = () => {

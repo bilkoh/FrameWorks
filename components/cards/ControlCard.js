@@ -97,20 +97,23 @@ const CsfCard = ({ control }) => {
   return (
     <>
       <Heading as="h3" size="2xl" p="4" bg="secondary" roundedTop="lg">
-        {control["NAME"]}
+        {control["controlId"]}
         <Box float="right">CSF</Box>
       </Heading>
       <Grid templateColumns="repeat(5, 1fr)">
         <ControlField
           label="Function"
-          value={control["FUNCTION_CODE"] + " - " + control["FUNCTION"]}
+          value={control["functionCode"] + " - " + control["functionName"]}
         />
-        <ControlField label="Category" value={control["CATEGORY"]} />
+        <ControlField
+          label="Category"
+          value={control.category ? control.category["name"] : false}
+        />
         <ControlField
           label="Category Description"
-          value={control["CATEGORY_DESCRIPTION"]}
+          value={control.category ? control.category["description"] : false}
         />
-        <ControlField label="Description" value={control["DESCRIPTION"]} />
+        <ControlField label="Description" value={control["description"]} />
       </Grid>
     </>
   );
