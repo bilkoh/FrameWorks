@@ -18,12 +18,15 @@ const ResultsPanel = ({ controlContext, options }) => {
       alignItems="flex-start"
       bg="white"
     >
-      <Heading as="h2" size="2xl">
-        Results
-      </Heading>
+      <Heading as="h2" size="2xl"></Heading>
       {all &&
         all.map((i, index) => (
-          <ControlCard key={i.NAME + index} control={i} options={options} />
+          <ControlCard
+            key={i.controlId || i.NAME}
+            control={i}
+            options={options}
+            datakey={i.controlId || i.NAME}
+          />
         ))}
     </VStack>
   );

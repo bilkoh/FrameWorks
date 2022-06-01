@@ -57,12 +57,13 @@ const ControlCard = ({ control, options }) => {
 
 const ControlField = ({ label, value }) => {
   if (value) {
+    value = value.trim();
     return (
       <>
         <GridItem colSpan={1} p="2" textAlign="right">
           <b>{label}:</b>
         </GridItem>
-        <GridItem colSpan={4} p="2">
+        <GridItem colSpan={4} p="2" style={{ whiteSpace: "pre-wrap" }}>
           {value}
         </GridItem>
       </>
@@ -75,23 +76,18 @@ const SpCard = ({ control }) => {
   return (
     <>
       <Heading as="h3" size="2xl" p="4" bg="secondary" roundedTop="lg">
-        {control["NAME"]}
+        {control["controlId"]}
         <Box float="right">800-53</Box>
       </Heading>
       <Grid templateColumns="repeat(5, 1fr)">
-        <ControlField label="Title" value={control["TITLE"]} />
+        <ControlField label="Title" value={control["title"]} />
         <ControlField label="Family" value={control["FAMILY"]} />
-        <ControlField label="Priority" value={control["PRIORITY"]} />
-        <ControlField label="Impact" value={control["BASELINE-IMPACT"]} />
-        <ControlField label="Description" value={control["DESCRIPTION"]} />
+        <ControlField label="Description" value={control["description"]} />
         <ControlField
           label="Supplemental Guidance"
-          value={control["SUPPLEMENTAL GUIDANCE"]}
+          value={control["description2"]}
         />
-        <ControlField
-          label="Related Controls"
-          value={control["RELATED"].join(", ")}
-        />
+        <ControlField label="Related Controls" value={control["related"]} />
       </Grid>
     </>
   );
