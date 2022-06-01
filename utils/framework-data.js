@@ -1,5 +1,6 @@
 export const getAllSP = () => {
-  return require("../data/800-53.json");
+  // return require("../data/800-53.json");
+  return require("../data/nist-800-53-rev5.json");
 };
 
 export const getAllCSF = () => {
