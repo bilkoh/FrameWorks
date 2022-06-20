@@ -6,7 +6,7 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <ChakraProvider theme={customTheme}>
       <CSSReset />
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </ChakraProvider>
   );
 };
