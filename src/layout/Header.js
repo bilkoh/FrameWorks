@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Flex, Box, Heading, Link, Text } from "@chakra-ui/react";
+import { Flex, Box, Heading, Link, Text, Image } from "@chakra-ui/react";
 import { ChevronUpIcon, ChevronDownIcon, SearchIcon } from "@chakra-ui/icons";
 
 import { Filter } from "../Filter";
@@ -33,9 +33,16 @@ export const Header = () => {
             <Filter />
           </Box>
         </Box>
-        <Box p={3} boxShadow="xs" textAlign="right">
-          <Text fontSize="xs">source repo: [github]</Text>
-        </Box>
+        <Flex p={3} boxShadow="xs" alignItems={"center"}>
+          Repo:
+          <a
+            href="https://github.com/bilkoh/FrameWorks"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Image p={2} src={["GitHub-Mark-32px.png"]} alt="GitHub" />
+          </a>
+        </Flex>
       </Flex>
     </Box>
   );
