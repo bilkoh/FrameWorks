@@ -14,3 +14,8 @@ a {
 * {
   box-sizing: border-box;
 }
+
+a[onclick],
+a:not([name]) {
+  cursor: pointer;
+}

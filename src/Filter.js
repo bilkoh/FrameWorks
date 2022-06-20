@@ -1,17 +1,10 @@
-import { VStack } from "@chakra-ui/react";
-import { Heading, Text } from "@chakra-ui/react";
-import {
-  FormControl,
-  FormLabel,
-  Input,
-  Select,
-  Checkbox,
-  Flex,
-} from "@chakra-ui/react";
-
+import React, { useContext, useEffect } from "react";
+import { FormControl, Input, Flex } from "@chakra-ui/react";
 import { Formik, Field, Form, useFormikContext } from "formik";
-import { useEffect } from "react";
+import { Context } from "./context";
+import { FormLabel, Select, Checkbox, Box, Stack } from "@chakra-ui/react";
 
+// TODO: add checkbox to exclude enhancedments
 const options = {
   controlFilter: "",
   frameworkFilter: "ALL",
@@ -19,12 +12,14 @@ const options = {
   minified: false,
 };
 
-const OptionsPanel = ({ setOptions }) => {
-  // needed to observe for changes in Formik state
+export const Filter = () => {
+  const ctx = useContext(Context);
+  const [, setFilter] = ctx.filter;
   const FormObserver = () => {
     const { values } = useFormikContext();
     useEffect(() => {
-      setOptions(values);
+      // setOptions(values);
+      setFilter(values);
 
       console.log("FormObserver::onChange", values);
     }, [values]);
@@ -33,27 +28,19 @@ const OptionsPanel = ({ setOptions }) => {
   };
 
   return (
-    <Flex top="0" pos="sticky" left="5" h="full" flexDir="column">
+    <Flex>
       <Formik initialValues={options}>
         {({ handleSubmit, errors, touched }) => (
           <Form>
             <FormObserver />
-            <VStack
-              w={300}
-              h="full"
-              p={10}
-              spacing={10}
+            <Flex
+              direction="row"
+              flexWrap="wrap"
+              // spacing={1}
               alignItems="flex-start"
+              justifyContent={["flex-start", "flex-start", "space-around"]}
             >
-              <VStack spacing={3} alignItems="flex-start">
-                <Heading as="h2" size="2xl">
-                  Options
-                </Heading>
-                <Text>Use the options below</Text>
-              </VStack>
-
-              <VStack spacing={3} alignItems="flex-start">
-                <Heading size="xl">Filter</Heading>
+              <Box m={3}>
                 <FormControl>
                   <FormLabel>By Control ID</FormLabel>
                   <Field
@@ -62,6 +49,8 @@ const OptionsPanel = ({ setOptions }) => {
                     placeholder="PR.AC-1"
                   />
                 </FormControl>
+              </Box>
+              <Box m={3}>
                 <FormControl>
                   <FormLabel>Framework</FormLabel>
                   <Field as={Select} name="frameworkFilter">
@@ -70,9 +59,10 @@ const OptionsPanel = ({ setOptions }) => {
                     </option>
                     <option value="SP">NIST 800-53</option>
                     <option value="CSF">NIST CSF</option>
-                    <option value="MPA">MPA</option>
                   </Field>
                 </FormControl>
+              </Box>
+              <Box m={3}>
                 <FormControl>
                   <FormLabel>Catch-all Regex Search</FormLabel>
                   <Field
@@ -81,24 +71,20 @@ const OptionsPanel = ({ setOptions }) => {
                     placeholder="risk management"
                   />
                 </FormControl>
-              </VStack>
-
-              <VStack spacing={3} alignItems="flex-start">
-                <Heading size="xl">Display</Heading>
-                <FormLabel>Show/Hide</FormLabel>
+              </Box>
+              <Stack direction="row" spacing={3} alignItems="flex-start">
+                <FormLabel>Show/Hide:</FormLabel>
                 <Field as={Checkbox} name="mappings" defaultChecked>
                   Show Mappings
                 </Field>
                 <Field as={Checkbox} name="minified">
                   Minified Control Cards
                 </Field>
-              </VStack>
-            </VStack>
+              </Stack>
+            </Flex>
           </Form>
         )}
       </Formik>
     </Flex>
   );
 };
-
-export default OptionsPanel;

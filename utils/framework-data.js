@@ -12,12 +12,12 @@ export const getAllFrameworks = () => {
   // Original json data doesn't identify each element
   // with the framework it belongs to. We're fixing that here.
   const sp = getAllSP().map((element) => {
-    element.FRAMEWORK = "SP";
+    element.framework = "SP";
     return element;
   });
 
   const csf = getAllCSF().map((element) => {
-    element.FRAMEWORK = "CSF";
+    element.framework = "CSF";
     return element;
   });
 
