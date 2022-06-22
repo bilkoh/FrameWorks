@@ -14,7 +14,7 @@ const Index = () => {
   // const csfData = data;
   // ({ data, error } = useSWR("/api/frameworks/sp", fetcher));
   // const spData = data;
-  console.log(allData);
+  // console.log(allData);
 
   // we use filter array in context to find current state of filter settings
   const [filter, setFilter] = useState();
